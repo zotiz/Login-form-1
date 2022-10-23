@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: poppins;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  width: 360px;
+  height: 520px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  padding: 35px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1,
+              -14px -14px 20px white;
+}
+.brand-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 14px 14px 20px #cbced1,
+            -14px -14px 20px white;
+  box-sizing: border-box;
+  margin: auto;
+
+  display: flex; /* Define Flex for content inside the circle.*/
+  justify-content: center;
+  align-items: center;
+
+  background: url(logo.png);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.brand-title {
+  margin-top: 13px;
+  font-weight: 900;
+  /* color: #fd7200; */
+  color:black;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  word-spacing: 4px;
+}
+.inputs {
+  text-align: left ;
+  margin-top: 30px;
+}
+
+label,input,button {
+  display: block;
+  width: 100%; 
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+label {
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+label:nth-of-type(2) {
+  margin-top: 15px;
+}
+input::placeholder {
+  color: rgb(158, 158, 158);
+}
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 16px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  border-radius: 25px;
+}
+button {
+  margin-top: 35px;
+  height: 50px;
+  padding: 10px;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  border-radius: 25px;
+   /* background-color: #fd7200;  */
+  font-size: 17px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  background-color: #ecf0f3;
+}
+.creater {
+  margin-top: 18px;
+  font-size: 13px;
+  opacity: 0.4;
+  text-align: right;
+
+}
+a {
+  text-decoration: none;
+}
