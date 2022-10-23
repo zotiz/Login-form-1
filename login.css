@@ -1,5 +1,7 @@
+/* Import font family from google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
 
+/* Style for body */
 body {
   margin: 0;
   width: 100vw;
@@ -12,11 +14,11 @@ body {
   font-family: poppins;
   overflow: hidden;
 }
+/* For Login page or container box */
 .container {
   position: relative;
   width: 360px;
   height: 520px;
-  /* border: 1px solid red; */
   border-radius: 20px;
   padding: 35px;
   box-sizing: border-box;
@@ -24,6 +26,7 @@ body {
   box-shadow: 14px 14px 20px #cbced1,
               -14px -14px 20px white;
 }
+/* Styling for logo */
 .brand-logo {
   height: 100px;
   width: 100px;
@@ -37,12 +40,12 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: url(logo.png);
+  background: url(logo.png); /* logo */
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
 }
-
+/* Name of Brand/Company or Title */
 .brand-title {
   margin-top: 13px;
   font-weight: 900;
@@ -52,28 +55,33 @@ body {
   letter-spacing: 1.2px;
   word-spacing: 4px;
 }
+/* For Inputs Div */
 .inputs {
   text-align: left ;
   margin-top: 30px;
 }
-
+/* For individual label, input, button section */
 label,input,button {
   display: block;
   width: 100%; 
   border: none;
   outline: none;
   box-sizing: border-box;
-}
+} 
+/* For label */
 label {
   margin-bottom: 4px;
   font-size: 18px;
-}
+} 
+/* For Second Label */
 label:nth-of-type(2) {
   margin-top: 15px;
 }
+/* For Input Placeholder/ content of input box */
 input::placeholder {
   color: rgb(158, 158, 158);
 }
+/* For input box */
 input {
   background: #ecf0f3;
   padding: 10px;
@@ -83,6 +91,7 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
   border-radius: 25px;
 }
+/* For Button */
 button {
   margin-top: 35px;
   height: 50px;
@@ -90,24 +99,25 @@ button {
   font-weight: 900;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
   border-radius: 25px;
-   /* background-color: #fd7200;  */
   font-size: 17px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* For Hover Over the Button */
 button:hover {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
   background-color: #ecf0f3;
 }
+/* For Creater */
 .creater {
   margin-top: 18px;
   font-size: 13px;
   opacity: 0.4;
   text-align: right;
-
 }
 a {
-  text-decoration: none;
+  text-decoration: none; /* Anchor Tag */
 }
+/* End */
